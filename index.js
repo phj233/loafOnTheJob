@@ -2,7 +2,7 @@ const {segment} = require('oicq');
 const request = require('sync-request');
 const cron = require('node-cron');
 const cfg = require("../../modules/vanilla/config.json");
-const loafJob='https://api.j4u.ink/proxy/remote/moyu.json';
+const loafJob='https://api.j4u.ink/v1/store/other/proxy/remote/moyu.json';
 const loafJob2='http://d.jiek.top/vJfV';
 const loafJob3='https://api.vvhan.com/api/moyu';
 
